@@ -3,7 +3,7 @@
 'use strict';
 
 // 2. variable let (added in ES6)
-// mutable type
+// mutable type (read and write)
 let globalNm = 'jane'; //메모리에 항상 탑재. 최소한 사용 권장.
 {
     let nm = 'inhye';
@@ -17,8 +17,8 @@ console.log(globalNm); //jane
 age = 4;
 var age;
 
-// 3. constants
-// immutable type
+// 3. constant
+// immutable type (read only)
 // favor immutable data type always for a few reasons:
 // - security
 // - thread safety
