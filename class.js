@@ -102,3 +102,4 @@ console.log(t1.getArea());
 // instanceof
 // class checking
 console.log(r1 instanceof Rectangle); //true
+
